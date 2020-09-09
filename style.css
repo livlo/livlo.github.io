@@ -1,0 +1,389 @@
+*{
+    text-align: center;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #70615D;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.center-in{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.neumorph, .neumorph-click{
+    box-shadow: 
+        8px 8px 8px 0 rgba(0, 0, 0, 0.1),
+        -4px -4px 8px 0 rgba(255, 255, 255, 0.3);
+}
+
+.neumorph-click:active{
+    box-shadow: 
+        8px 8px 8px 0 rgba(0, 0, 0, 0.1),
+        -4px -4px 8px 0 rgba(255, 255, 255, 0.3),
+        inset 8px 8px 8px 0 rgba(0, 0, 0, 0.1),
+        inset -4px -4px 8px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* NAVIGATION */
+.navbar-brand{
+    width: 70px;
+}
+
+.nav-item, .navbar-brand{
+    margin: 1vh 1vw;
+    border-radius: 1vw;
+}
+
+/* INTRODUCTION */
+#introduction{
+    position: relative;
+    height: 70vh;
+    background-color: #F3F0E9;
+}
+#introduction_livlo_icon{
+    margin-top: 15vh;
+}
+
+/* CHANNEL */
+#channel-top{
+    background-color: #F3F0E9;
+    background-image: url(./assets/wave1-top.png);
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#channel-bottom{
+    background-color: #F3F0E9;
+    background-image: url(./assets/wave1-bottom.png);
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#channel{
+    background-color: #D5C8B9;
+    height: 80vh;
+}
+
+#channel_hp{
+    height: 550px;
+}
+
+#channel_box_title{
+    width: 300px; 
+    padding: 18px;
+    float: right;
+    margin-right: 10%;
+    border-radius: 20px;
+}
+
+#channel_box_desc{
+    text-align: right; 
+    margin-right: 10%; 
+    float: right;
+}
+
+/* CONTENT */
+#content{
+    background-color: #F3F0E9;;
+}
+
+#content_title{
+    width: 30%; 
+    padding: 15px; 
+    margin: auto;
+    border-radius: 20px;
+}
+
+.ig{
+    text-align: center;
+    margin: 1vh 1vw;
+}
+
+.ig-photos{
+    width: 100%;
+}
+
+.slick-list.draggable .slick-track .slick-slide{
+    height: auto;
+}
+
+.slick-prev:before, .slick-next:before { 
+    color: #70615D !important;
+}
+
+button.slick-next.slick-arrow::before, button.slick-prev.slick-arrow::before{
+    font-size: 50px;
+}
+
+.slick-prev {
+    margin-left: 60px;
+    z-index: 3;
+}
+
+.slick-next {
+    margin-right: 80px;
+    z-index: 3;
+}
+
+.tiktok{
+    margin: 0 4.5vw;
+}
+
+.video-background{
+    width: 100%;
+}
+
+/* OUR TEAM */
+#team-top{
+    background-color: #F3F0E9;
+    background-image: url(./assets/wave2-top.png);
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#team-bottom{
+    background-color: #F3F0E9;
+    background-image: url(./assets/wave2-bottom.png);
+    height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#team{
+    height: 100vh;
+    background-color: #D5C8B9;
+    padding-bottom: 5vh;
+}
+
+.team_box{
+    margin: 1vh 2vw;
+    padding-top: 50px;
+    border-radius: 20px;
+}
+
+.circle_team{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.circle_icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.role{
+    letter-spacing: 2px;
+}
+
+/* CONTACT */
+#contact{
+    height: 80vh;
+    background-color: #F3F0E9;
+}
+
+#team_title{
+    margin-left: 37%; 
+    width: 25vw; 
+    border-radius: 20px;
+}
+
+#contact_title{
+    width: 40%;
+    height: 15vh;
+    border-radius: 20px;
+}
+
+#contact_box{
+    width: 90%;
+    height: 60%; 
+    border-radius: 20px;
+}
+
+
+
+/* MEDIA QUERIES */
+
+/***
+    Buat ipad Pro
+**/
+@media screen and (max-width: 1024px) {
+    /* #introduction{
+        height: 10vh;
+    } */
+    /* #channel-top{
+        height: 15vh;
+    } */
+    /* #channel{
+        height: 50vh;
+    } */
+    /* #channel-bottom{
+        height: 10vh;
+    } */
+    /* #team{
+        height: 60vh;
+    } */
+    /* #team-top{
+        height: 20vh;
+    } */
+    /* #team-bottom{
+        height: 20vh;
+    } */
+    /* #contact{
+        height: 40vh;
+    } */
+    /* #contact_title{
+        height: 8vh;
+    } */
+    /* #contact_box{
+        height: 70%;
+    } */
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 800px) {
+    #introduction{
+        height: 80vh;
+    }
+    #introduction_livlo_icon{
+        height: 300px;
+    }
+
+    #channel{
+        height: 120vh;
+    }
+
+    #channel_box_title{
+        float: none;
+        margin: auto;
+    }
+    #channel_top{
+        height: 5vh;
+    }
+
+    #channel_box_desc{
+        text-align: justify;
+        margin-right: 5%;
+    }
+
+    #content{
+        height: 250vh;
+    }
+
+    #content_title{
+        width: 40%;
+    }
+
+    #team{
+        height: 120vh;
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 580px) {
+    
+    #introduction{
+        height: 100vh;
+    }
+    #introduction_livlo_box{
+        margin: 0;
+    }
+    #introduction_livlo_icon{
+        height: 250px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #channel{
+        height: 180vh;
+    }
+    #channel_box{
+        margin: 0;
+    }
+
+    #channel_box_desc{
+        margin-right: 0;
+        text-align: center;
+    }
+    
+    #content{
+        height: 250vh;
+    }
+    #content_title{
+        width: 70%;
+    }
+
+    #team{
+        height: 260vh;
+    }
+
+    .team_box{
+        margin: 1vh 5vw;
+    }
+
+    #team_title{
+        margin-left: 5%; 
+        width: 80vw; 
+        border-radius: 20px;
+    }
+    #contact{
+        height: 60vh;
+    }
+    #contact_box{
+        height: 50vh;
+    }
+    #contact_title{
+        width: 100%;
+        height: 15vh;
+    }
+}
+
+/**
+    Buat galaxy fold
+**/
+
+@media screen and (max-width: 281px) {
+    img#introduction_livlo_icon{
+        height: 30vh;
+    }
+    img#channel_hp{
+        height: 400px;
+    }
+
+    #channel_box_title{
+        width: 250px;
+    }
+    .video-background{
+        width: 90%;
+    }
+    .ig-photos{
+        width: 90%;
+    }
+    div.content_tiktok>img{
+        height: 150px;
+    }
+    div.content_instagram>img{
+        width: 150px;
+    }
+}
