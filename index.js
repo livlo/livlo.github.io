@@ -1,4 +1,8 @@
 $(document).ready(() => {
+    // $.each($('#navbar').find('li'), function() {
+    //     $(this).toggleClass('active', 
+    //         window.location.pathname.indexOf($(this).find('a').attr('href')) > -1);
+    // }); 
     $('.slider').slick({
         centerMode: true,
         centerPadding: '60px',
@@ -56,4 +60,6 @@ $(document).ready(() => {
             }
         ]
     });
+
+    
 });

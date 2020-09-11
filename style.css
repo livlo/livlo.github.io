@@ -50,6 +50,12 @@ body{
     border-radius: 12px;
 }
 
+.nav-link{
+    font-weight: bold;
+    color: #70615D !important;
+    text-decoration: none;
+}
+
 /* INTRODUCTION */
 #introduction{
     position: relative;
