@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /assets
+
+Sitemap: https://raw.githubusercontent.com/livlo/livlo.github.io/master/sitemap.xml
